@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Janice's homepage</title>
+</head>
+<style>
+body {
+  background-image: url(https://st4.depositphotos.com/3146979/20504/v/600/depositphotos_205041434-stock-video-abstract-animated-stained-background-seamless.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  background-color: white;
+  font-family: Brush Script MT
+}
+
+h2 {
+  text-align: center;
+  font-family: Monaco;
+}
+
+h3 {
+  font-family: Monaco;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: lightblue;
+}
+
+/* selected link */
+a:active {
+  color: green;
+}
+
+ul, li {
+  font-size: 20px;
+  font-family: Optima;
+}
+
+#selfintro {
+  background-color: rgba(255,0,0,0.2);
+  padding: 25px;
+  width: 900px;
+  margin: 40px;
+  font-family: Optima;
+  font-size: 20px;
+}
+
+#fav {
+  background-color: rgba(255,255,0,0.3);
+  padding: 25px;
+  width: 900px;
+  font-family: Optima;
+  font-size: 20px;
+}
+
+img {
+  position: absolute;
+  margin: -60px 1100px;
+}
+</style>
+<body>
+<h1>CHEUNG Ka Man Janice</h1>
+<h2>A year-3 student study in POLYU</h2> <img src="./minnie.png">
+<h3>Personal Information</h3>
+<ul>
+    <li>Birth: 11-10-1999</li>
+    <li>Email: janicecheung@gmail.com</li>
+    <li>Phone: +852 9090 9090</li>
+</ul>
+<h3>Self Introduction</h3>
+<div id="selfintro">I come from Hong Kong, a small city with over 7 million people. Hong Kong is mix of both Chinese and Western culture. I love my hometown. I was born in a sweet and lovely family. My parents gave me a pretty name, Janice. The meaning of Janice is: God is gracious. </div>
+<h3>Favorite Things</h3>
+<ul>
+    <li>Music</li>
+    <div id="fav">Lauv is my favorite artist in North America region. He is a singer, songwriter, multi-instrumentalist and producer. He has been learning musical instruments since he was a child. His songs try to make everyone to be more sincere to face themselves or others. There are many things in life that are too much hypocrisy and superficial. His music can help me get rid of everything and just enjoy the music. My favourite song is <a href="https://www.youtube.com/watch?v=BcqxLCWn-CE" target="_blank">I Like Me Better</a>.</div>
+    <br>
+    <li>Games</li>
+    <div id="fav">PUBG is my all time favorite!! It is also a great method to talk to the foreigners. I used to play in the North America region because I can practise my English. I am not people person. It is difficult for me to talk to people face to face especially using English. It is definitely a best way to use English more.</div>
+    <br>
+</ul>
+</body>
+</html>
